@@ -20,7 +20,7 @@ body {
 
 .hero-heading {
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #0f172a;
   margin-bottom: 1rem;
 }
@@ -49,6 +49,7 @@ body {
 .section-heading {
   font-size: 3rem;
   color: #2e2f33;
+  font-weight: 600;
 }
 @media (max-width: 992px) {
   .section-heading {

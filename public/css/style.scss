@@ -27,7 +27,7 @@ $green-primary: #479e10;
 
 .hero-heading {
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 600;
     color: $dark-blue;
     margin-bottom: 1rem;
 
@@ -55,7 +55,7 @@ $green-primary: #479e10;
 .section-heading {
     font-size: 3rem;
     color: $black-normal;
-
+    font-weight: 600;
     @media (max-width: 992px) {
         font-size: 2rem;
     }

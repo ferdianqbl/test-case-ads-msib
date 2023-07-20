@@ -13,6 +13,7 @@
 <body>
   @include('components.navbar')
   @yield('container')
+  @include('components.footer')
   <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 
