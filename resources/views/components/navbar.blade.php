@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg bg-body-white fixed-top" id="navbar">
   <div class="container">
     <a class="navbar-brand" href="#">
-      <img src="/images/logo.svg" alt="" class="img-fluid">
+      <img src="/images/logo.svg" alt="" class="img-fluid d-none d-lg-block">
+      <img src="/images/logo-icon.svg" alt="" class="img-fluid d-lg-none d-block">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
