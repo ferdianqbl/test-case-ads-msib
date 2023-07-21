@@ -218,3 +218,12 @@ nav.navbar#navbar {
         }
     }
 }
+
+img.product-hero-img {
+    position: absolute;
+    top: -15rem;
+    right: -20rem;
+    width: 70vw;
+    object-fit: cover;
+    object-position: center;
+}

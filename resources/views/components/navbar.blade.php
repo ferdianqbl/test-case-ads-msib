@@ -11,10 +11,10 @@
     <div class="collapse navbar-collapse text-center py-3 py-md-0" id="navbarSupportedContent">
       <ul class="navbar-nav text-center mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link active" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Produk</a>
+          <a class="nav-link" href="/product">Produk</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Promo</a>

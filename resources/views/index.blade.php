@@ -222,24 +222,4 @@
         </svg></a>
     </div>
   </div>
-
-
-  {{-- Download --}}
-  <div class="container pt-8">
-    <div class="row align-items-center justify-content-between">
-      <div class="col-md-6">
-        <h1 class="hero-heading mb-5">
-          Makin Mudah dan Praktis
-          dengan Aplikasi Panenpanen.id
-          Download Sekarang
-        </h1>
-
-        <img src="/images/google-play.png" alt="" class="img-fluid"
-          style="max-width: 200px; cursor: pointer;">
-      </div>
-      <div class="col-md-6">
-        <img src="/images/google-play-mockup.png" alt="" class="img-fluid mt-5 mt-md-0">
-      </div>
-    </div>
-  </div>
 @endsection

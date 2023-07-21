@@ -199,4 +199,15 @@ nav.navbar#navbar ul li a.nav-link:hover {
 nav.navbar#navbar ul li a.nav-link.active {
   font-weight: bold;
   color: #35770c;
+}
+
+img.product-hero-img {
+  position: absolute;
+  top: -15rem;
+  right: -20rem;
+  width: 70vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }/*# sourceMappingURL=style.css.map */
