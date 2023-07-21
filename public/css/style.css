@@ -40,6 +40,21 @@ body {
   }
 }
 
+.banner-heading {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 1rem;
+}
+.banner-heading span {
+  color: #479e10;
+}
+@media (max-width: 992px) {
+  .banner-heading {
+    font-size: 2.75rem;
+  }
+}
+
 .text-dark-grey {
   color: #575757;
 }
@@ -210,4 +225,35 @@ img.product-hero-img {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.blog-banner-card .title {
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+}
+@media (max-width: 576px) {
+  .blog-banner-card .title {
+    font-size: 1.25rem !important;
+  }
+}
+.blog-banner-card .date {
+  font-size: 1.25rem !important;
+  color: #2e2f33 !important;
+}
+.blog-banner-card .date span {
+  font-weight: bold !important;
+}
+@media (max-width: 576px) {
+  .blog-banner-card .date {
+    font-size: 1rem !important;
+  }
+}
+.blog-banner-card .text {
+  font-size: 1.05rem !important;
+  color: #858585 !important;
+}
+@media (max-width: 576px) {
+  .blog-banner-card .text {
+    font-size: 0.8rem !important;
+  }
 }/*# sourceMappingURL=style.css.map */

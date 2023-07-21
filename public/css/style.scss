@@ -48,6 +48,21 @@ $green-primary: #479e10;
     }
 }
 
+.banner-heading {
+    font-size: 4rem;
+    font-weight: 600;
+    color: $dark-blue;
+    margin-bottom: 1rem;
+
+    span {
+        color: $green-primary;
+    }
+
+    @media (max-width: 992px) {
+        font-size: 2.75rem;
+    }
+}
+
 .text-dark-grey {
     color: $dark-grey;
 }
@@ -226,4 +241,36 @@ img.product-hero-img {
     width: 70vw;
     object-fit: cover;
     object-position: center;
+}
+
+.blog-banner-card {
+    .title {
+        font-size: 2rem !important;
+        font-weight: 700 !important;
+
+        @media (max-width: 576px) {
+            font-size: 1.25rem !important;
+        }
+    }
+
+    .date {
+        font-size: 1.25rem !important;
+        color: $black-normal !important;
+
+        span {
+            font-weight: bold !important;
+        }
+
+        @media (max-width: 576px) {
+            font-size: 1rem !important;
+        }
+    }
+
+    .text {
+        font-size: 1.05rem !important;
+        color: #858585 !important;
+        @media (max-width: 576px) {
+            font-size: 0.8rem !important;
+        }
+    }
 }
