@@ -401,3 +401,43 @@ form.form#form {
     top: 50% !important;
     transform: translateY(-50%) !important;
 }
+
+// Pagination
+.pagination {
+    button {
+        text-decoration: none;
+        color: #667085;
+        font-weight: 400;
+        transition: all 0.3s ease-in-out;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        border: none;
+        background-color: #fff;
+
+        &:hover {
+            color: #35770c;
+            background-color: #edf5e7;
+        }
+    }
+    .number-pagination {
+        a {
+            text-decoration: none;
+            color: #667085;
+            font-weight: 400;
+            transition: all 0.3s ease-in-out;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+        a:hover {
+            color: #35770c;
+            background-color: #edf5e7;
+        }
+        a.active {
+            font-weight: 500;
+            color: #479e10;
+            background-color: #edf5e7;
+        }
+    }
+}

@@ -61,5 +61,20 @@
         </div>
       @endfor
     </div>
+
+    <div class="d-flex justify-content-between align-items-center pagination mt-5">
+      <button><i class="bi bi-arrow-left"></i> Previous</button>
+      <div class="number-pagination">
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        ...
+        <a href="#" class="">8</a>
+        <a href="#">9</a>
+        <a href="#">10</a>
+
+      </div>
+      <button>Next <i class="bi bi-arrow-right"></i></button>
+    </div>
   </div>
 @endsection
