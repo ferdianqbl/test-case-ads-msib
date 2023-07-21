@@ -276,11 +276,25 @@ img.product-hero-img {
   position: absolute;
   top: -15rem;
   right: -20rem;
-  width: 70vw;
+  max-width: 70vw;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+@media (max-width: 992px) {
+  img.product-hero-img {
+    max-width: 80vw;
+    top: -13rem;
+    right: -15rem;
+  }
+}
+@media (max-width: 768px) {
+  img.product-hero-img {
+    max-width: 80vw;
+    top: -10rem;
+    right: -10rem;
+  }
 }
 
 .blog-banner-card .title {

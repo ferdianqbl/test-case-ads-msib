@@ -3,8 +3,8 @@
 @section('container')
   {{-- Hero --}}
   <div class="overflow-hidden">
-    <div class="container position-relative"
-      style="display: flex; align-items-center; justify-content: center; min-height: 100vh;">
+    <div class="container position-relative pb-8"
+      style="display: flex; align-items-center; justify-content: center; max-height: 100vh;">
       <div class="row">
         <div class="col-md-6 pt-8">
           <h1 class="hero-heading">
@@ -13,14 +13,16 @@
           <a href="/" class="button-primary mt-4 d-inline-block">Langganan Sekarang</a>
         </div>
         <div class="col-md-6">
-          <img src="/images/product-hero-img.png" alt="" class="img-fluid position-absolute product-hero-img">
+          <img src="/images/product-hero-img.png" alt=""
+            class="img-fluid position-absolute product-hero-img d-none d-md-block">
+          <img src="/images/product-hero-img.png" alt="" class="img-fluid d-block d-md-none">
         </div>
       </div>
     </div>
   </div>
 
   {{-- Product --}}
-  <div class="container pt-8">
+  <div class="container pt-5">
     <h1 class="section-heading mb-5 text-center">
       Produk Kami
     </h1>

@@ -301,9 +301,21 @@ img.product-hero-img {
     position: absolute;
     top: -15rem;
     right: -20rem;
-    width: 70vw;
+    max-width: 70vw;
     object-fit: cover;
     object-position: center;
+
+    @media (max-width: 992px) {
+        max-width: 80vw;
+        top: -13rem;
+        right: -15rem;
+    }
+
+    @media (max-width: 768px) {
+        max-width: 80vw;
+        top: -10rem;
+        right: -10rem;
+    }
 }
 
 .blog-banner-card {
