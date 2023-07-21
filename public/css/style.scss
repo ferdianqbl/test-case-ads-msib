@@ -278,3 +278,15 @@ img.product-hero-img {
         }
     }
 }
+
+form.form#form {
+    label {
+        font-weight: 500;
+        color: $black;
+    }
+
+    input,
+    textarea {
+        font-size: 0.9rem;
+    }
+}

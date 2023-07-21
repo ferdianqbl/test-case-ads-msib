@@ -21,10 +21,18 @@ Route::get('/product', function () {
     return view('product');
 });
 
+Route::get('/promo', function () {
+    return view('promo');
+});
+
 Route::get('/blog', function () {
     return view('blog');
 });
 
 Route::get('/about-us', function () {
     return view('about-us');
+});
+
+Route::get('/contact-us', function () {
+    return view('contact-us');
 });

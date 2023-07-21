@@ -11,22 +11,22 @@
     <div class="collapse navbar-collapse text-center py-3 py-md-0" id="navbarSupportedContent">
       <ul class="navbar-nav text-center mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" href="/">Home</a>
+          <a class="nav-link @if (Request::is('/')) active @endif" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/product">Produk</a>
+          <a class="nav-link @if (Request::is('product')) active @endif" href="/product">Produk</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Promo</a>
+          <a class="nav-link @if (Request::is('promo')) active @endif" href="/promo">Promo</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/blog">Blog</a>
+          <a class="nav-link @if (Request::is('blog')) active @endif" href="/blog">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about-us">About Us</a>
+          <a class="nav-link @if (Request::is('about-us')) active @endif" href="/about-us">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link @if (Request::is('contact-us')) active @endif" href="/contact-us">Contact Us</a>
         </li>
       </ul>
       <a class="button-primary" href="#">Download App</a>

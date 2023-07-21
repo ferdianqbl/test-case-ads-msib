@@ -259,4 +259,13 @@ img.product-hero-img {
   .blog-banner-card .text {
     font-size: 0.8rem !important;
   }
+}
+
+form.form#form label {
+  font-weight: 500;
+  color: #2d2d2d;
+}
+form.form#form input,
+form.form#form textarea {
+  font-size: 0.9rem;
 }/*# sourceMappingURL=style.css.map */
