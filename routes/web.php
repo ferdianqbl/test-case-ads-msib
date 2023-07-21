@@ -24,3 +24,7 @@ Route::get('/product', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+
+Route::get('/about-us', function () {
+    return view('about-us');
+});
