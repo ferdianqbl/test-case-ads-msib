@@ -223,6 +223,38 @@ body {
   }
 }
 
+.review-card .review-card-body {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+.review-card .review-card-body .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #2d2d2d;
+}
+.review-card .review-card-body .text {
+  font-size: 1rem;
+  color: #929292;
+}
+.review-card .review-card-profile img {
+  max-width: 50px;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.review-card .review-card-profile .name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2e2f33;
+}
+.review-card .review-card-profile .job {
+  font-size: 1rem;
+  color: #929292;
+}
+
 nav.navbar#navbar {
   background-color: #fff;
   border-bottom: 1px solid #eaeaeb;
@@ -289,4 +321,41 @@ form.form#form label {
 form.form#form input,
 form.form#form textarea {
   font-size: 0.9rem;
+}
+
+.owl-dot span {
+  background-color: #c2c2c2 !important;
+}
+
+.owl-dot.active span {
+  background-color: #479e10 !important;
+}
+
+.owl-next,
+.owl-prev {
+  position: absolute;
+  background: #fff !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+  transition: all 0.3s ease-in-out;
+  color: #c2c2c2 !important;
+  font-weight: 600 !important;
+}
+.owl-next:hover,
+.owl-prev:hover {
+  background: #479e10 !important;
+  color: #fff !important;
+}
+
+.owl-prev {
+  left: -40px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+.owl-next {
+  right: -40px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
 }/*# sourceMappingURL=style.css.map */

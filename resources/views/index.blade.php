@@ -171,6 +171,87 @@
       <h1 class="section-heading mb-5 text-center">
         Kata Mereka
       </h1>
+
+      <div class="owl-carousel owl-theme">
+        <div class="review-card item">
+          <div class="review-card-body mb-3">
+            <p class="title">Murah, Cepet bree</p>
+            <p class="text">Udah enak murah dan praktis lagi buat makan siang di kampus sama temen2 hehehe ^^</p>
+          </div>
+
+          <div class="review-card-profile d-flex flex-column gap-1 justify-content-center align-items-center">
+            <img src="https://source.unsplash.com/random/300×300?person" alt=""
+              class="img-fluid rounded-circle">
+            <p class="name p-0 mb-0">Asep M</p>
+            <p class="job p-0 mb-0">Mahasiswa</p>
+          </div>
+        </div>
+        <div class="review-card item">
+          <div class="review-card-body mb-3">
+            <p class="title">Murah, Cepet bree</p>
+            <p class="text">Udah enak murah dan praktis lagi buat makan siang di kampus sama temen2 hehehe ^^</p>
+          </div>
+
+          <div class="review-card-profile d-flex flex-column gap-1 justify-content-center align-items-center">
+            <img src="https://source.unsplash.com/random/300×300?person" alt=""
+              class="img-fluid rounded-circle">
+            <p class="name p-0 mb-0">Asep M</p>
+            <p class="job p-0 mb-0">Mahasiswa</p>
+          </div>
+        </div>
+        <div class="review-card item">
+          <div class="review-card-body mb-3">
+            <p class="title">Murah, Cepet bree</p>
+            <p class="text">Udah enak murah dan praktis lagi buat makan siang di kampus sama temen2 hehehe ^^</p>
+          </div>
+
+          <div class="review-card-profile d-flex flex-column gap-1 justify-content-center align-items-center">
+            <img src="https://source.unsplash.com/random/300×300?person" alt=""
+              class="img-fluid rounded-circle">
+            <p class="name p-0 mb-0">Asep M</p>
+            <p class="job p-0 mb-0">Mahasiswa</p>
+          </div>
+        </div>
+        <div class="review-card item">
+          <div class="review-card-body mb-3">
+            <p class="title">Murah, Cepet bree</p>
+            <p class="text">Udah enak murah dan praktis lagi buat makan siang di kampus sama temen2 hehehe ^^</p>
+          </div>
+
+          <div class="review-card-profile d-flex flex-column gap-1 justify-content-center align-items-center">
+            <img src="https://source.unsplash.com/random/300×300?person" alt=""
+              class="img-fluid rounded-circle">
+            <p class="name p-0 mb-0">Asep M</p>
+            <p class="job p-0 mb-0">Mahasiswa</p>
+          </div>
+        </div>
+        <div class="review-card item">
+          <div class="review-card-body mb-3">
+            <p class="title">Murah, Cepet bree</p>
+            <p class="text">Udah enak murah dan praktis lagi buat makan siang di kampus sama temen2 hehehe ^^</p>
+          </div>
+
+          <div class="review-card-profile d-flex flex-column gap-1 justify-content-center align-items-center">
+            <img src="https://source.unsplash.com/random/300×300?person" alt=""
+              class="img-fluid rounded-circle">
+            <p class="name p-0 mb-0">Asep M</p>
+            <p class="job p-0 mb-0">Mahasiswa</p>
+          </div>
+        </div>
+        <div class="review-card item">
+          <div class="review-card-body mb-3">
+            <p class="title">Murah, Cepet bree</p>
+            <p class="text">Udah enak murah dan praktis lagi buat makan siang di kampus sama temen2 hehehe ^^</p>
+          </div>
+
+          <div class="review-card-profile d-flex flex-column gap-1 justify-content-center align-items-center">
+            <img src="https://source.unsplash.com/random/300×300?person" alt=""
+              class="img-fluid rounded-circle">
+            <p class="name p-0 mb-0">Asep M</p>
+            <p class="job p-0 mb-0">Mahasiswa</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
