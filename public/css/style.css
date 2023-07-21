@@ -28,6 +28,27 @@ body {
   color: #2e630a;
 }
 
+.content-nav-link {
+  text-decoration: none;
+  background-color: #eeeeee;
+  border: none;
+  color: #747474 !important;
+  padding: 10px 20px !important;
+  border-radius: 5px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.content-nav-link:hover {
+  background-color: #e0e0e0;
+}
+.content-nav-link.active {
+  background-color: #c5ecaf;
+  border: none;
+  font-weight: 500;
+  color: #35770c !important;
+}
+
 .hero-heading {
   font-size: 2.5rem;
   font-weight: 600;
