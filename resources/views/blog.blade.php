@@ -2,26 +2,31 @@
 
 @section('container')
   {{-- Hero --}}
-  <div class="container pt-8">
-    <h1 class="banner-heading text-center">
-      Berita Terbaru <span>Dapur Panen</span>
-    </h1>
+  <div class="position-relative">
+    <div class="container pt-8">
+      <h1 class="banner-heading text-center">
+        Berita Terbaru <span>Dapur Panen</span>
+      </h1>
 
-    <p class="text-center" style="color: #747474; font-size: 1.25rem;">Berita mengenai informasi makanan dan produk kami</p>
+      <p class="text-center" style="color: #747474; font-size: 1.25rem;">Berita mengenai informasi makanan dan produk kami
+      </p>
 
-    <div class="card border-0 blog-banner-card">
-      <img src="/images/blog-hero-img.png" class="img-fluid" alt="">
-      <div class="card-img-overlay row justify-content-start align-items-end">
-        <div class="col-lg-7 col-md-9">
-          <p class="date">20 September 2022 &#x2022; by <span>Najwa Putri</span></p>
-          <h1 class="title">3 Makanan yang Bikin Kecerdasan Menurun, Penting Dihindari!</h1>
-          <p class="text">Apa saja makanan yang dapat membuat kecerdasan menurun?</p>
+      <div class="card border-0 blog-banner-card">
+        <img src="/images/blog-hero-img.png" class="img-fluid" alt="">
+        <div class="card-img-overlay row justify-content-start align-items-end">
+          <div class="col-lg-7 col-md-9">
+            <p class="date">20 September 2022 &#x2022; by <span>Najwa Putri</span></p>
+            <h1 class="title">3 Makanan yang Bikin Kecerdasan Menurun, Penting Dihindari!</h1>
+            <p class="text">Apa saja makanan yang dapat membuat kecerdasan menurun?</p>
+          </div>
+
         </div>
-
       </div>
-    </div>
-  </div>
 
+    </div>
+    <img src="/images/wave.svg" alt="" class="img-fluid position-absolute"
+      style="z-index: -1; top: 50%; left: 0; right: 0; transform: translateY(-20%);">
+  </div>
   {{-- Blog --}}
   <div class="container pt-8">
     <div class="row justify-content-center align-items-start gap-3 gap-md-0">
