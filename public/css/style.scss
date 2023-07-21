@@ -19,11 +19,21 @@ $green-primary: #479e10;
     color: #fff !important;
     padding: 10px 20px !important;
     border-radius: 100px;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     &:hover {
         background-color: #2e630a;
+    }
+}
+
+.button-link {
+    color: $green-primary !important;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        color: #2e630a;
     }
 }
 
@@ -68,7 +78,7 @@ $green-primary: #479e10;
     .product-img {
         margin-bottom: 1.25rem;
         width: 100%;
-        height: 200px;
+        max-height: 200px;
         img {
             margin: auto;
             text-align: center;
@@ -90,6 +100,100 @@ $green-primary: #479e10;
             font-size: 1rem;
             color: $light-grey;
         }
+    }
+}
+
+.promo-card {
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    background: #fff;
+    .promo-img {
+        padding: 1rem 1rem 0 1rem;
+        // margin-bottom: 2rem;
+        width: 100%;
+        // max-height: 200px;
+        img {
+            border-radius: 1rem;
+            display: block;
+            width: 100%;
+            // height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    .promo-card-body {
+        padding: 1rem;
+        .title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: $black;
+        }
+
+        .text {
+            font-size: 1rem;
+            color: $light-grey;
+        }
+
+        .date {
+            font-size: 1rem;
+            color: #858585;
+        }
+    }
+
+    @media (max-width: 576px) {
+        max-width: 20rem;
+        margin: auto;
+    }
+}
+
+.blog-card {
+    width: 100%;
+    overflow: hidden;
+    .blog-img {
+        width: 100%;
+        img {
+            border-radius: 12px;
+            display: block;
+            width: 100%;
+            // height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    .blog-card-body {
+        margin-top: 1rem;
+        .title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: $black;
+        }
+
+        .text {
+            font-size: 1rem;
+            color: $light-grey;
+        }
+
+        .date {
+            font-size: 1rem;
+            color: #858585;
+        }
+
+        .author {
+            font-size: 1rem;
+            color: $black;
+
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+
+    @media (max-width: 576px) {
+        max-width: 20rem;
+        margin: auto;
     }
 }
 
